@@ -5,8 +5,10 @@
 ![This is an image](https://github.com/MitchHardy/MechaCar_Statistical_Analysis/blob/main/Resources/linear_regression.png) 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
 - From the image above we can see that the coefficients that provided a non-random amount of variance to the mpg values were the vehicle_length and ground_clearance.
+
 Is the slope of the linear model considered to be zero? Why or why not?
 - The slope of the linear model is not zero because the p-value of 5.35e-11 is smaller than the significance level of 0.05%.
+
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 - We can see that the linear regression model predicts the mpg of the MechaCar prototypes effectively by the Multiple R-squared value of 0.7149. This is indicating that the model is predicting the mpg of the MechaCar correctly about 71 times out of 100. Although the model is correctly predicting the outcome the majority of the time, I would say that there is room to be more effective. 
 
