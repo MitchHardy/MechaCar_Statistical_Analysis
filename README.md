@@ -24,9 +24,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 ### Total T-Tests
 ![This is an image](https://github.com/MitchHardy/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_sample.png)
+The image above shows a summary of the t-test results. By looking at the results we can see that there is not enough evidence to reject the null hypothesis. This is because the p-value is higher than the significance level of 0.05. In other words the mean of the threee lots are similar to the population mean of 1500. 
 
 ### Lot 1, 2, & 3 T-Tests
 ![This is an image](https://github.com/MitchHardy/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot123.png)
+Here we have t-tests for each of the three manufacturing lots. The first thing that sticks out when comparing each lot is the p-value of lot 3. The p-value in lots 1 & 2 are higher than the common significance level of 0.05 meaning the sample mean and the population mean are similar. Lot 3 however is the only manufacturing lot that has a lower p-value than the 0.05 significance level. This would mean that lot 3 is different statistically compared to the population mean of 1500. 
 
 ## Study Design: MechaCar vs Competition
 
